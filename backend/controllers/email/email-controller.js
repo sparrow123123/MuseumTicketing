@@ -40,7 +40,7 @@ export const sendemail = async (req,res,next) => {
 
       Dear ${existingUser.name},
 
-      Your HistoriScan ticket booking has been confirmed. Below are the details of your booking:
+      Your HistoriScan tickets booking has been confirmed. Below are the details of your booking:
 
       Movie: ${museum}
       Date: ${date}
